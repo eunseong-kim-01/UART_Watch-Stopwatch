@@ -12,12 +12,12 @@ module stopwatch_top (
     output [5:0] min,
     output [4:0] hour
 );
-    wire w_clear_cu;  // cu -> dp clear signal
+    wire w_clear_cu;
 
     stopwatch_dp U_STOPWATCH_DP (
         .clk(clk),
         .rst(rst),
-        .i_runstop(o_is_running),  // dp run/stop is controlled by cu output
+        .i_runstop(o_is_running), 
         .i_clear(w_clear_cu),
         .msec(msec),
         .sec(sec),
