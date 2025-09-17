@@ -1,0 +1,25 @@
+# Vivado generated files
+.Xil/
+*.jou
+*.log
+*.zip
+*.bit
+*.bin
+*.ltx
+*.prm
+*.str
+*.sysdef
+*.bmm
+*.html
+*.mcs
+*.rbt
+*_bb.v
+*_incl.vhd
+*.ip_user_files/
+*.srcs/
+*.cache/
+*.hw/
+*.runs/
+*.sdk/
+*.sw/
+project_*/
